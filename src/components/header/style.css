@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+header{
+  background: #4a90e2;
+  color: #fff;
+  height: 60px;
+  padding: 20px 40px 20px 60px;
+  font-size: 18px;
+}
+header span, i{
+  float: right;
+  margin-right: 10px;
+}
+
+header strong:hover{
+  background: rgb(66,103,178);
+  padding: 20px;
+  cursor: context-menu;
+}
+header span:hover{
+  background: rgb(66,103,178);
+  padding: 5px;
+  cursor:pointer;
+  margin-right: 2%;
+}
